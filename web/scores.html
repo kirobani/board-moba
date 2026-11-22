@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/league-base.css">
+  <link rel="stylesheet" href="/assets/public.css">
+  <title>16 队成绩 · 棋盘 MOBA</title>
+</head>
+<body>
+  <main class="public-layout">
+    <nav><a href="/">返回大厅</a><a href="/cup.html">进入杯赛</a></nav>
+    <h1>16 队正式成绩</h1>
+    <p>每档基准各 20 局。两两交手各 10 局。基准比分依次为胜、负、平。</p>
+    <nav aria-label="成绩下载"><a href="/results/round-robin.csv">逐局 CSV</a><a href="/results/head-to-head.json">交手矩阵</a></nav>
+    <div class="public-table">
+      <table>
+        <thead><tr><th>排名</th><th>战队</th><th>互打积分</th><th>常规基准</th><th>高压基准</th><th>开发净用时</th><th>选手 ID</th></tr></thead>
+        <tbody id="score-rows"></tbody>
+      </table>
+    </div>
+    <p id="scores-message" role="alert"></p>
+  </main>
+  <script src="/assets/public.js"></script>
+</body>
+</html>

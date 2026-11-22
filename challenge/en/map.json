@@ -1,0 +1,767 @@
+{
+  "kind": "hex39-three-lanes",
+  "version": "hex-moba-contest",
+  "cells": [
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -3,
+      2
+    ],
+    [
+      -3,
+      3
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      0,
+      -3
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      -3
+    ],
+    [
+      3,
+      -2
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      -4,
+      4
+    ],
+    [
+      4,
+      -4
+    ]
+  ],
+  "paths": {
+    "top": [
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        0,
+        -3
+      ],
+      [
+        1,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        3,
+        -3
+      ]
+    ],
+    "mid": [
+      [
+        -3,
+        3
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        3,
+        -3
+      ]
+    ],
+    "bottom": [
+      [
+        -3,
+        3
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        3,
+        -2
+      ],
+      [
+        3,
+        -3
+      ]
+    ]
+  },
+  "fountains": {
+    "A": [
+      -4,
+      4
+    ],
+    "B": [
+      4,
+      -4
+    ]
+  },
+  "blocked": [],
+  "movement": "All39 cells, including enemy bases and fountains, are traversable. Fountain connects only to its base.",
+  "buildings": [
+    {
+      "id": "A_base",
+      "team": "A",
+      "kind": "base",
+      "p": [
+        -3,
+        3
+      ],
+      "hp": 60,
+      "maxHP": 60,
+      "power": 0
+    },
+    {
+      "id": "A_top_inner",
+      "team": "A",
+      "lane": "top",
+      "tier": "inner",
+      "kind": "tower",
+      "p": [
+        -3,
+        2
+      ],
+      "hp": 49,
+      "maxHP": 49,
+      "power": 0
+    },
+    {
+      "id": "A_top_outer",
+      "team": "A",
+      "lane": "top",
+      "tier": "outer",
+      "kind": "tower",
+      "p": [
+        -3,
+        0
+      ],
+      "hp": 54,
+      "maxHP": 54,
+      "power": 0
+    },
+    {
+      "id": "A_mid_inner",
+      "team": "A",
+      "lane": "mid",
+      "tier": "inner",
+      "kind": "tower",
+      "p": [
+        -2,
+        2
+      ],
+      "hp": 49,
+      "maxHP": 49,
+      "power": 0
+    },
+    {
+      "id": "A_mid_outer",
+      "team": "A",
+      "lane": "mid",
+      "tier": "outer",
+      "kind": "tower",
+      "p": [
+        -1,
+        1
+      ],
+      "hp": 33,
+      "maxHP": 33,
+      "power": 0
+    },
+    {
+      "id": "A_bottom_inner",
+      "team": "A",
+      "lane": "bottom",
+      "tier": "inner",
+      "kind": "tower",
+      "p": [
+        -2,
+        3
+      ],
+      "hp": 55,
+      "maxHP": 55,
+      "power": 0
+    },
+    {
+      "id": "A_bottom_outer",
+      "team": "A",
+      "lane": "bottom",
+      "tier": "outer",
+      "kind": "tower",
+      "p": [
+        0,
+        3
+      ],
+      "hp": 37,
+      "maxHP": 37,
+      "power": 0
+    },
+    {
+      "id": "B_base",
+      "team": "B",
+      "kind": "base",
+      "p": [
+        3,
+        -3
+      ],
+      "hp": 60,
+      "maxHP": 60,
+      "power": 0
+    },
+    {
+      "id": "B_top_inner",
+      "team": "B",
+      "lane": "top",
+      "tier": "inner",
+      "kind": "tower",
+      "p": [
+        2,
+        -3
+      ],
+      "hp": 49,
+      "maxHP": 49,
+      "power": 0
+    },
+    {
+      "id": "B_top_outer",
+      "team": "B",
+      "lane": "top",
+      "tier": "outer",
+      "kind": "tower",
+      "p": [
+        0,
+        -3
+      ],
+      "hp": 54,
+      "maxHP": 54,
+      "power": 0
+    },
+    {
+      "id": "B_mid_inner",
+      "team": "B",
+      "lane": "mid",
+      "tier": "inner",
+      "kind": "tower",
+      "p": [
+        2,
+        -2
+      ],
+      "hp": 49,
+      "maxHP": 49,
+      "power": 0
+    },
+    {
+      "id": "B_mid_outer",
+      "team": "B",
+      "lane": "mid",
+      "tier": "outer",
+      "kind": "tower",
+      "p": [
+        1,
+        -1
+      ],
+      "hp": 33,
+      "maxHP": 33,
+      "power": 0
+    },
+    {
+      "id": "B_bottom_inner",
+      "team": "B",
+      "lane": "bottom",
+      "tier": "inner",
+      "kind": "tower",
+      "p": [
+        3,
+        -2
+      ],
+      "hp": 55,
+      "maxHP": 55,
+      "power": 0
+    },
+    {
+      "id": "B_bottom_outer",
+      "team": "B",
+      "lane": "bottom",
+      "tier": "outer",
+      "kind": "tower",
+      "p": [
+        3,
+        0
+      ],
+      "hp": 37,
+      "maxHP": 37,
+      "power": 0
+    }
+  ],
+  "camps": [
+    {
+      "id": "A_camp_1",
+      "regionTeam": "A",
+      "kind": "normal",
+      "p": [
+        -2,
+        0
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "A_camp_2",
+      "regionTeam": "A",
+      "kind": "normal",
+      "p": [
+        -2,
+        1
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "A_camp_3",
+      "regionTeam": "A",
+      "kind": "normal",
+      "p": [
+        -1,
+        2
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "A_camp_4",
+      "regionTeam": "A",
+      "kind": "normal",
+      "p": [
+        -1,
+        0
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "A_camp_5",
+      "regionTeam": "A",
+      "kind": "normal",
+      "p": [
+        0,
+        1
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "A_camp_6",
+      "regionTeam": "A",
+      "kind": "normal",
+      "p": [
+        0,
+        2
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "B_camp_1",
+      "regionTeam": "B",
+      "kind": "normal",
+      "p": [
+        0,
+        -2
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "B_camp_2",
+      "regionTeam": "B",
+      "kind": "normal",
+      "p": [
+        1,
+        -2
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "B_camp_3",
+      "regionTeam": "B",
+      "kind": "normal",
+      "p": [
+        2,
+        -1
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "B_camp_4",
+      "regionTeam": "B",
+      "kind": "normal",
+      "p": [
+        0,
+        -1
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "B_camp_5",
+      "regionTeam": "B",
+      "kind": "normal",
+      "p": [
+        1,
+        0
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "B_camp_6",
+      "regionTeam": "B",
+      "kind": "normal",
+      "p": [
+        2,
+        0
+      ],
+      "hp": 1,
+      "maxHP": 1,
+      "power": 0,
+      "alive": true,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      }
+    },
+    {
+      "id": "ancient_upper",
+      "kind": "ancient",
+      "p": [
+        -1,
+        -1
+      ],
+      "hp": 0,
+      "maxHP": 0,
+      "power": 0,
+      "alive": false,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      },
+      "goldPool": null,
+      "announcement": null
+    },
+    {
+      "id": "ancient_lower",
+      "kind": "ancient",
+      "p": [
+        1,
+        1
+      ],
+      "hp": 0,
+      "maxHP": 0,
+      "power": 0,
+      "alive": false,
+      "spawnAt": null,
+      "captures": {
+        "A": 0,
+        "B": 0
+      },
+      "goldPool": null,
+      "announcement": null
+    }
+  ],
+  "ancientFirstSpawn": {
+    "mode": "independent uniform integer20-70 each site",
+    "public_before_notice": null
+  },
+  "ancientPeriod": {
+    "after_capture_uniform_integer": [
+      20,
+      70
+    ]
+  },
+  "ancientNoticeLead": [
+    5,
+    20
+  ],
+  "towerHP": {
+    "outer": [
+      30,
+      60
+    ],
+    "inner": [
+      40,
+      60
+    ],
+    "paired_by_lane_and_tier": true
+  },
+  "exampleSeed": 170001,
+  "exampleBuildingsNote": "Layout reference only: hp/maxHP shown for this example seed; each real match has its own public draw."
+}

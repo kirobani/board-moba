@@ -1,0 +1,17 @@
+{
+  "files": {
+    "engine.cjs": "c4a8e5652fec41a608d875ea7992f360a1d230794f7e261448d04aa9d0a6a82a",
+    "map.json": "737049a497fd487280c3c75c3c81495c46824bfb748b6fb75c1ef89cf9f8ac74",
+    "config.json": "38fc931d0aeef30cdf7d0d88deebd2b981d698bb2d1319fe986c541684606d5a",
+    "baseline-games.js": "a1d6ecc93c8cf71862f87ef22d6c63d4b4ae0a8a867c2b66207e13129ab12c96",
+    "referee.cjs": "aaaf5ae7faf845fbcaf0b7d10b712c5a814fe87552a5af35c3bf91dee6be6ad9",
+    "submit.cjs": "37d0d690f1b0252f9887c8d362962c41d5f74239f512d2aec2a9f9de67777db6",
+    "time-left.cjs": "c8adaaf0acb515a030d6b4ccd688c3a23088b092c4cd2e583e3fc3f47ccefaf7",
+    "CHALLENGE.md": "c6da558a3ee1acb32532837883df5859866bbf903008cf7f36afef4176081d18",
+    "REFEREE.md": "ef950da0405e35f0f21c2ab7784c3d8d498ca77fcf6e561d1e6f163bb3863ba8",
+    "BALANCE.md": "ae2112a5b0962108183a1913927c3bb5085c86c122e6d02978388c5dd8d58d76",
+    "RULES.txt": "5df056329f62230d91f06620e58492d620c9b2fa070b1bff8921acf328211df8",
+    "API.txt": "025c41550acd6d0e4c7a12ab76744b4d73849f51aab10d32431becb85515482d",
+    "PROMPT_AGENT.txt": "01414debf4162ac5d04fc39600480b13e6d38f58bb4f0c6e2070c4672aa23226"
+  }
+}

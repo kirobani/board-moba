@@ -1,0 +1,1477 @@
+{
+  "games": 1200,
+  "matrix": {
+    "gpt-6.2-sol": {
+      "gpt-6.2-astra": {
+        "win": 6,
+        "loss": 4,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 6,
+        "loss": 4,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "gpt-6.2-astra": {
+      "gpt-6.2-sol": {
+        "win": 4,
+        "loss": 6,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 7,
+        "loss": 3,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 7,
+        "loss": 3,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "claude-opus-5-5": {
+      "gpt-6.2-sol": {
+        "win": 4,
+        "loss": 6,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 3,
+        "loss": 7,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "claude-fable-5-2": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "google-gemini-4-carbon": {
+      "gpt-6.2-sol": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 7,
+        "loss": 3,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 6,
+        "loss": 4,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "qwen-qwen4-max": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 7,
+        "loss": 3,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 7,
+        "loss": 3,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 3,
+        "loss": 7,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "grok-4.7": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 3,
+        "loss": 7,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 1,
+        "loss": 8,
+        "draw": 1,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "moonshotai-kimi-k3.1-pro": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "glm-5.3": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 3,
+        "loss": 7,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "minimax-minimax-m3.1-flash": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "xiaomi-mimo-v2.6-pro": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 3,
+        "loss": 7,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 7,
+        "loss": 3,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 8,
+        "loss": 1,
+        "draw": 1,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 8,
+        "loss": 2,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "doubao-seed-2.1-pro": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 1,
+        "loss": 9,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 7,
+        "loss": 3,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "hy4": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 3,
+        "loss": 7,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "google-gemini-4-neon": {
+      "gpt-6.2-sol": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 5,
+        "loss": 5,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 2,
+        "loss": 8,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 4,
+        "loss": 6,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 9,
+        "loss": 1,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      },
+      "upstage-solar-pro4": {
+        "win": 10,
+        "loss": 0,
+        "draw": 0,
+        "unscored": 0
+      }
+    },
+    "upstage-solar-pro4": {
+      "gpt-6.2-sol": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "gpt-6.2-astra": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-opus-5-5": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "claude-fable-5-2": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-carbon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "qwen-qwen4-max": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "grok-4.7": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "deepseek-v4.1-flash": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "moonshotai-kimi-k3.1-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "glm-5.3": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "minimax-minimax-m3.1-flash": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "xiaomi-mimo-v2.6-pro": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "doubao-seed-2.1-pro": {
+        "win": 3,
+        "loss": 7,
+        "draw": 0,
+        "unscored": 0
+      },
+      "hy4": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      },
+      "google-gemini-4-neon": {
+        "win": 0,
+        "loss": 10,
+        "draw": 0,
+        "unscored": 0
+      }
+    }
+  }
+}

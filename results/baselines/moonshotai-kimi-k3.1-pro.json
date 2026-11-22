@@ -1,0 +1,377 @@
+{
+  "id": "moonshotai-kimi-k3.1-pro",
+  "scores": {
+    "standard": {
+      "win": 18,
+      "loss": 2,
+      "draw": 0
+    },
+    "pressure": {
+      "win": 11,
+      "loss": 9,
+      "draw": 0
+    }
+  },
+  "matches": [
+    {
+      "id": "standard-10-0-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 147,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-0-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 86,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-1-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 85,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-1-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 116,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-2-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 85,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-2-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 84,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-3-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 95,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-3-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 81,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-4-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 99,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-4-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 95,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-5-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 110,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-5-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 96,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-6-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 98,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-6-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 86,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-7-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 83,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-7-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 96,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-8-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 173,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "standard-10-8-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 127,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "standard-10-9-blue",
+      "tier": "standard",
+      "candidateSide": "A",
+      "mapTurns": 120,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "standard-10-9-red",
+      "tier": "standard",
+      "candidateSide": "B",
+      "mapTurns": 191,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-0-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 101,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-0-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 125,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-1-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 97,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-1-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 200,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-2-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 86,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-2-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 98,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-3-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 102,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-3-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 110,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-4-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 112,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-4-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 173,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-5-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 96,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-5-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 162,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-6-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 99,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-6-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 103,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-7-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 98,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-7-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 250,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-8-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 103,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "loss"
+    },
+    {
+      "id": "opus-8-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 103,
+      "winner": "B",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-9-blue",
+      "tier": "pressure",
+      "candidateSide": "A",
+      "mapTurns": 122,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "win"
+    },
+    {
+      "id": "opus-9-red",
+      "tier": "pressure",
+      "candidateSide": "B",
+      "mapTurns": 130,
+      "winner": "A",
+      "reason": "base",
+      "outcome": "loss"
+    }
+  ]
+}

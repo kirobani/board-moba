@@ -1,0 +1,10 @@
+{
+  "id": "cup-20261120-170516-3560b6",
+  "state": "complete-verified",
+  "at": "2026-11-22T08:15:33.515Z",
+  "games": 77,
+  "series": 40,
+  "seedCommitment": "9f8aa448ec8004d3109283905885e01a42423a1e09f46365ee7fe9d5fd7a300e",
+  "engineSha256": "fa08a6552629dec4ba42007d9e394bfd9380f1ed975fe5b536cb880bc320a9b9",
+  "configSha256": "ea566b1ebcf33fb3631408bfd3cdfdfc4ead5250247aa601032c63589d2ffd63"
+}

@@ -1,0 +1,1819 @@
+{
+  "id": "formal-cup-20261120-01",
+  "engineSha256": "fa08a6552629dec4ba42007d9e394bfd9380f1ed975fe5b536cb880bc320a9b9",
+  "seedBasis": {
+    "name": "Artificial Analysis Intelligence Index",
+    "version": "v5.0.1",
+    "date": "2026-11-20",
+    "url": "https://artificialanalysis.ai/models/releases?sort=intelligence"
+  },
+  "status": "complete-verified",
+  "teams": {
+    "gpt-6.2-astra": {
+      "id": "gpt-6.2-astra",
+      "name": "Astra 6.2",
+      "model": "gpt-6.2-astra",
+      "region": "OAI",
+      "slot": "OAI1",
+      "pool": 1,
+      "rating": 62,
+      "digest": "43a2a9dee7c7a47a160a532776ec75f7f8ab859eb376cfa83bc732c9c5e228b6"
+    },
+    "gpt-6.2-sol": {
+      "id": "gpt-6.2-sol",
+      "name": "Sol 6.2",
+      "model": "gpt-6.2-sol",
+      "region": "OAI",
+      "slot": "OAI2",
+      "pool": 2,
+      "rating": 57,
+      "digest": "30c54e1f9960e365283775e8a1de9663bee708640530584d923f57943212ab7a"
+    },
+    "google-gemini-4-neon": {
+      "id": "google-gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "model": "google/gemini-4-neon",
+      "region": "GOO",
+      "slot": "GOO1",
+      "pool": 1,
+      "rating": 61,
+      "digest": "8e401b6ee9d130c79fc95752f2becc702be1c73a90eb254b62767543cf50e9a9"
+    },
+    "google-gemini-4-carbon": {
+      "id": "google-gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "model": "google/gemini-4-carbon",
+      "region": "GOO",
+      "slot": "GOO2",
+      "pool": 2,
+      "rating": 60,
+      "digest": "90c77e3a23dcfcfc2b49616c0bbcd71e94c4daad853617a6a461b953975e36bb"
+    },
+    "claude-fable-5-2": {
+      "id": "claude-fable-5-2",
+      "name": "Fable 5.2",
+      "model": "claude-fable-5-2",
+      "region": "ANTH",
+      "slot": "ANTH1",
+      "pool": 1,
+      "rating": 65,
+      "digest": "31b1c60f0bcd492c9c091f6cde7ea8b2b46059a97a33afb819d89af3ab222f83"
+    },
+    "claude-opus-5-5": {
+      "id": "claude-opus-5-5",
+      "name": "Opus 5.5",
+      "model": "claude-opus-5-5",
+      "region": "ANTH",
+      "slot": "ANTH2",
+      "pool": 2,
+      "rating": 59,
+      "digest": "8de52e4d87fded41f4c30b07ae94d62b204aad55b9fd8ae4d7d235bcc9e01c43"
+    },
+    "grok-4.7": {
+      "id": "grok-4.7",
+      "name": "Grok 4.7",
+      "model": "grok-4.7",
+      "region": "XAI",
+      "slot": "XAI1",
+      "pool": 3,
+      "rating": 35,
+      "digest": "d07425782856e188e76602163cdeaf41454a1a91b508b97f3e33c28ffcc97126"
+    },
+    "moonshotai-kimi-k3.1-pro": {
+      "id": "moonshotai-kimi-k3.1-pro",
+      "name": "Kimi K3.1 Pro",
+      "model": "moonshotai/kimi-k3.1-pro",
+      "region": "CNAI",
+      "slot": "CNAI1",
+      "pool": 1,
+      "rating": 46,
+      "digest": "bd66677745109b7636e4052c090de5435c8938e4d76eb704ad84e8080798f451"
+    },
+    "qwen-qwen4-max": {
+      "id": "qwen-qwen4-max",
+      "name": "Qwen4 Max",
+      "model": "qwen/qwen4-max",
+      "region": "CNAI",
+      "slot": "CNAI2",
+      "pool": 2,
+      "rating": 43,
+      "digest": "928376b911723d9f73054b4dc75693582ebbc4f65be81c6456351b6c24cf64f3"
+    },
+    "hy4": {
+      "id": "hy4",
+      "name": "混元 HY4",
+      "model": "hy4",
+      "region": "CNAI",
+      "slot": "CNAI3",
+      "pool": 3,
+      "rating": 35,
+      "digest": "d57c42839b626125157e7039f8582a4524dc353f247e3db8b6a3db32749a4910"
+    },
+    "deepseek-v4.1-flash": {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "model": "deepseek-v4.1-flash",
+      "region": "CNAI",
+      "slot": "CNAI4",
+      "pool": 3,
+      "rating": 33,
+      "digest": "79038df1f9eed83f8b0a1e642d6dc6656b6f1ebcc332f7f4a40a4dc77954ac99"
+    },
+    "glm-5.3": {
+      "id": "glm-5.3",
+      "name": "GLM 5.3",
+      "model": "glm-5.3",
+      "region": "CNAI",
+      "slot": "CNAI5",
+      "pool": 3,
+      "rating": 32,
+      "digest": "69090212ad86bd749b246606f9921a8e3860076182c307e81be5ef4407f9cac7"
+    },
+    "xiaomi-mimo-v2.6-pro": {
+      "id": "xiaomi-mimo-v2.6-pro",
+      "name": "MiMo V2.6 Pro",
+      "model": "xiaomi/mimo-v2.6-pro",
+      "region": "CNAI",
+      "slot": "CNAI6",
+      "pool": 4,
+      "rating": 30,
+      "digest": "cb8f34264f76636cda60f9a6a1d1a1d13f3d73cdd15783f27d9f8efa1300cd7e"
+    },
+    "minimax-minimax-m3.1-flash": {
+      "id": "minimax-minimax-m3.1-flash",
+      "name": "MiniMax M3.1 Flash",
+      "model": "minimax/minimax-m3.1-flash",
+      "region": "CNAI",
+      "slot": "CNAI7",
+      "pool": 4,
+      "rating": 29,
+      "digest": "fcce9950053a31f49479b147ec0fb66974257bc17f29d1c5b2029b262f0b8aa6"
+    },
+    "doubao-seed-2.1-pro": {
+      "id": "doubao-seed-2.1-pro",
+      "name": "豆包 Seed 2.1 Pro",
+      "model": "doubao-seed-2.1-pro",
+      "region": "CNAI",
+      "slot": "CNAI8",
+      "pool": 4,
+      "rating": null,
+      "digest": "38e1ed9338de375026f362c508bbac16a0d3045e9fed452ec2eee9b87d25aae1"
+    },
+    "upstage-solar-pro4": {
+      "id": "upstage-solar-pro4",
+      "name": "Solar Pro 4",
+      "model": "upstage/solar-pro4",
+      "region": "ICK",
+      "slot": "ICK1",
+      "pool": 4,
+      "rating": 14,
+      "digest": "c7629300e8ce34c55781419be57911d6e2a6ab44092962dd78bed7bab30fa7ce"
+    }
+  },
+  "records": {
+    "gpt-6.2-astra": {
+      "wins": 3,
+      "losses": 2
+    },
+    "gpt-6.2-sol": {
+      "wins": 3,
+      "losses": 1
+    },
+    "google-gemini-4-neon": {
+      "wins": 3,
+      "losses": 0
+    },
+    "google-gemini-4-carbon": {
+      "wins": 3,
+      "losses": 2
+    },
+    "claude-fable-5-2": {
+      "wins": 3,
+      "losses": 0
+    },
+    "claude-opus-5-5": {
+      "wins": 3,
+      "losses": 1
+    },
+    "grok-4.7": {
+      "wins": 1,
+      "losses": 3
+    },
+    "moonshotai-kimi-k3.1-pro": {
+      "wins": 3,
+      "losses": 1
+    },
+    "qwen-qwen4-max": {
+      "wins": 2,
+      "losses": 3
+    },
+    "hy4": {
+      "wins": 3,
+      "losses": 2
+    },
+    "deepseek-v4.1-flash": {
+      "wins": 1,
+      "losses": 3
+    },
+    "glm-5.3": {
+      "wins": 2,
+      "losses": 3
+    },
+    "xiaomi-mimo-v2.6-pro": {
+      "wins": 2,
+      "losses": 3
+    },
+    "minimax-minimax-m3.1-flash": {
+      "wins": 1,
+      "losses": 3
+    },
+    "doubao-seed-2.1-pro": {
+      "wins": 0,
+      "losses": 3
+    },
+    "upstage-solar-pro4": {
+      "wins": 0,
+      "losses": 3
+    }
+  },
+  "waves": [
+    {
+      "id": "R1",
+      "title": "瑞士轮 · 第 1 轮",
+      "stage": "swiss",
+      "fixtures": [
+        {
+          "id": "R1-1",
+          "bestOf": 1,
+          "teams": [
+            "qwen-qwen4-max",
+            "grok-4.7"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-1-m1",
+              "A": "qwen-qwen4-max",
+              "B": "grok-4.7",
+              "winner": "grok-4.7",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 137,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "664ee361200bbe234d918a1ac9a0da0b6bb7552f308bc9167c7b7ca3419ff85a",
+              "heat": 4
+            }
+          ],
+          "winner": "grok-4.7",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R1-2",
+          "bestOf": 1,
+          "teams": [
+            "gpt-6.2-astra",
+            "doubao-seed-2.1-pro"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-2-m1",
+              "A": "doubao-seed-2.1-pro",
+              "B": "gpt-6.2-astra",
+              "winner": "gpt-6.2-astra",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 66,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "f0a50d07e6a34d2663a969d5ed8963566e5fec4eae2e22e53de2b023100abbdf",
+              "heat": 6
+            }
+          ],
+          "winner": "gpt-6.2-astra",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R1-3",
+          "bestOf": 1,
+          "teams": [
+            "gpt-6.2-sol",
+            "deepseek-v4.1-flash"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-3-m1",
+              "A": "deepseek-v4.1-flash",
+              "B": "gpt-6.2-sol",
+              "winner": "deepseek-v4.1-flash",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 66,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "8c5fd66bcc9e8bc05e672ff6142b58e480be0728e50d72f114b83f642208a3e5",
+              "heat": 4
+            }
+          ],
+          "winner": "deepseek-v4.1-flash",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R1-4",
+          "bestOf": 1,
+          "teams": [
+            "moonshotai-kimi-k3.1-pro",
+            "upstage-solar-pro4"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-4-m1",
+              "A": "upstage-solar-pro4",
+              "B": "moonshotai-kimi-k3.1-pro",
+              "winner": "moonshotai-kimi-k3.1-pro",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 84,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "e26ecedca9d2ba07cf50ab365fec8d62a6ddc63c32eaca4019375a85c9ad60d8",
+              "heat": 4
+            }
+          ],
+          "winner": "moonshotai-kimi-k3.1-pro",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R1-5",
+          "bestOf": 1,
+          "teams": [
+            "claude-opus-5-5",
+            "glm-5.3"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-5-m1",
+              "A": "claude-opus-5-5",
+              "B": "glm-5.3",
+              "winner": "claude-opus-5-5",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 83,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "97106427e9fffdb8e12670c4ca6975047651285c9c359022b15f6ae39db72ea7",
+              "heat": 4
+            }
+          ],
+          "winner": "claude-opus-5-5",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R1-6",
+          "bestOf": 1,
+          "teams": [
+            "google-gemini-4-neon",
+            "xiaomi-mimo-v2.6-pro"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-6-m1",
+              "A": "google-gemini-4-neon",
+              "B": "xiaomi-mimo-v2.6-pro",
+              "winner": "google-gemini-4-neon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 88,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "5e1f52c0f02721883da751b922b38496d9d6780c8cdfa07a225453aeebecd47a",
+              "heat": 6
+            }
+          ],
+          "winner": "google-gemini-4-neon",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R1-7",
+          "bestOf": 1,
+          "teams": [
+            "google-gemini-4-carbon",
+            "hy4"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-7-m1",
+              "A": "google-gemini-4-carbon",
+              "B": "hy4",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 85,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "0313d4051bf4988f02a35f3c5ffefd5e3c45080436389a27df42ecce2ba037c1",
+              "heat": 4
+            }
+          ],
+          "winner": "google-gemini-4-carbon",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R1-8",
+          "bestOf": 1,
+          "teams": [
+            "claude-fable-5-2",
+            "minimax-minimax-m3.1-flash"
+          ],
+          "record": "0–0",
+          "games": [
+            {
+              "id": "R1-8-m1",
+              "A": "claude-fable-5-2",
+              "B": "minimax-minimax-m3.1-flash",
+              "winner": "claude-fable-5-2",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 73,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "572b3d83c8c31549c97bc6f9fc83856505c28958b523d1ea53dd70ec7a3607ef",
+              "heat": 4
+            }
+          ],
+          "winner": "claude-fable-5-2",
+          "status": "complete",
+          "star": false
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "瑞士轮 · 第 2 轮",
+      "stage": "swiss",
+      "fixtures": [
+        {
+          "id": "R2-1",
+          "bestOf": 1,
+          "teams": [
+            "gpt-6.2-astra",
+            "google-gemini-4-carbon"
+          ],
+          "record": "1–0",
+          "games": [
+            {
+              "id": "R2-1-m1",
+              "A": "google-gemini-4-carbon",
+              "B": "gpt-6.2-astra",
+              "winner": "gpt-6.2-astra",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 76,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "0ffcb54e95889881e7984e482880ac3905870856d92efd76b8ddf501517700af",
+              "heat": 3
+            }
+          ],
+          "winner": "gpt-6.2-astra",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R2-2",
+          "bestOf": 1,
+          "teams": [
+            "google-gemini-4-neon",
+            "moonshotai-kimi-k3.1-pro"
+          ],
+          "record": "1–0",
+          "games": [
+            {
+              "id": "R2-2-m1",
+              "A": "moonshotai-kimi-k3.1-pro",
+              "B": "google-gemini-4-neon",
+              "winner": "google-gemini-4-neon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 111,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "860ca870c2b0f8bc68835f20355e2c0db84881d1937c76c96ce961bb44b9ca14",
+              "heat": 6
+            }
+          ],
+          "winner": "google-gemini-4-neon",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R2-3",
+          "bestOf": 1,
+          "teams": [
+            "gpt-6.2-sol",
+            "doubao-seed-2.1-pro"
+          ],
+          "record": "0–1",
+          "games": [
+            {
+              "id": "R2-3-m1",
+              "A": "gpt-6.2-sol",
+              "B": "doubao-seed-2.1-pro",
+              "winner": "gpt-6.2-sol",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 78,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "74e47276e31e2c55da392afce052c65c5a0998432538c7958215057eefe9c663",
+              "heat": 4
+            }
+          ],
+          "winner": "gpt-6.2-sol",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R2-4",
+          "bestOf": 1,
+          "teams": [
+            "claude-fable-5-2",
+            "grok-4.7"
+          ],
+          "record": "1–0",
+          "games": [
+            {
+              "id": "R2-4-m1",
+              "A": "grok-4.7",
+              "B": "claude-fable-5-2",
+              "winner": "claude-fable-5-2",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 75,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "b2ac0d9ae79a9981d284ed709bd7c3f8f3c8644ce68729e26eebe81a874aaeff",
+              "heat": 4
+            }
+          ],
+          "winner": "claude-fable-5-2",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R2-5",
+          "bestOf": 1,
+          "teams": [
+            "glm-5.3",
+            "upstage-solar-pro4"
+          ],
+          "record": "0–1",
+          "games": [
+            {
+              "id": "R2-5-m1",
+              "A": "glm-5.3",
+              "B": "upstage-solar-pro4",
+              "winner": "glm-5.3",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 71,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "85b6bee46ce147f5102ff2691587fd3ff503cd716acacf8d2a8145e3e41a8ca3",
+              "heat": 3
+            }
+          ],
+          "winner": "glm-5.3",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R2-6",
+          "bestOf": 1,
+          "teams": [
+            "claude-opus-5-5",
+            "deepseek-v4.1-flash"
+          ],
+          "record": "1–0",
+          "games": [
+            {
+              "id": "R2-6-m1",
+              "A": "claude-opus-5-5",
+              "B": "deepseek-v4.1-flash",
+              "winner": "claude-opus-5-5",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 87,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "5cddb45ea96332b9c070395a1eb3c5a808f64f5d895fe2983d6a45c21c751d51",
+              "heat": 4
+            }
+          ],
+          "winner": "claude-opus-5-5",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R2-7",
+          "bestOf": 1,
+          "teams": [
+            "qwen-qwen4-max",
+            "minimax-minimax-m3.1-flash"
+          ],
+          "record": "0–1",
+          "games": [
+            {
+              "id": "R2-7-m1",
+              "A": "qwen-qwen4-max",
+              "B": "minimax-minimax-m3.1-flash",
+              "winner": "qwen-qwen4-max",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 102,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "9b42a1c5615ba5b4ee1ec58f2b5b088127d80a02da63b409ed77e5e51f7d5ee1",
+              "heat": 4
+            }
+          ],
+          "winner": "qwen-qwen4-max",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R2-8",
+          "bestOf": 1,
+          "teams": [
+            "hy4",
+            "xiaomi-mimo-v2.6-pro"
+          ],
+          "record": "0–1",
+          "games": [
+            {
+              "id": "R2-8-m1",
+              "A": "hy4",
+              "B": "xiaomi-mimo-v2.6-pro",
+              "winner": "xiaomi-mimo-v2.6-pro",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 76,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "bdd01ea85f8387ed0ba6a45b88687f6f7bd9d27b2c5d0713c2071295de38dba8",
+              "heat": 6
+            }
+          ],
+          "winner": "xiaomi-mimo-v2.6-pro",
+          "status": "complete",
+          "star": true
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "瑞士轮 · 第 3 轮",
+      "stage": "swiss",
+      "fixtures": [
+        {
+          "id": "R3-1",
+          "bestOf": 1,
+          "teams": [
+            "qwen-qwen4-max",
+            "xiaomi-mimo-v2.6-pro"
+          ],
+          "record": "1–1",
+          "games": [
+            {
+              "id": "R3-1-m1",
+              "A": "xiaomi-mimo-v2.6-pro",
+              "B": "qwen-qwen4-max",
+              "winner": "xiaomi-mimo-v2.6-pro",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 82,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "dc17194a22469fa45b6a163908d5fdcfc8be0315f0284314e36dc686a3202945",
+              "heat": 4
+            }
+          ],
+          "winner": "xiaomi-mimo-v2.6-pro",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R3-2",
+          "bestOf": 3,
+          "teams": [
+            "gpt-6.2-astra",
+            "google-gemini-4-neon"
+          ],
+          "record": "2–0",
+          "games": [
+            {
+              "id": "R3-2-m1",
+              "A": "gpt-6.2-astra",
+              "B": "google-gemini-4-neon",
+              "winner": "google-gemini-4-neon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 139,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "fed7807684184c498537899378d429fcfc2409640785f1cacb4a88da590533c4",
+              "heat": 4
+            },
+            {
+              "id": "R3-2-m2",
+              "A": "google-gemini-4-neon",
+              "B": "gpt-6.2-astra",
+              "winner": "google-gemini-4-neon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 127,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "b5bbebf3a9f7979882784848a167cd9eb3d02d5b0fc9518a4fb878f8e74138c7",
+              "heat": 4
+            }
+          ],
+          "winner": "google-gemini-4-neon",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R3-3",
+          "bestOf": 1,
+          "teams": [
+            "gpt-6.2-sol",
+            "google-gemini-4-carbon"
+          ],
+          "record": "1–1",
+          "games": [
+            {
+              "id": "R3-3-m1",
+              "A": "google-gemini-4-carbon",
+              "B": "gpt-6.2-sol",
+              "winner": "gpt-6.2-sol",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 208,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "9534784fd0e3da424e5da8d99680bf1e7a2f44282f424c5de2a84d07b447896a",
+              "heat": 6
+            }
+          ],
+          "winner": "gpt-6.2-sol",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R3-4",
+          "bestOf": 3,
+          "teams": [
+            "claude-fable-5-2",
+            "claude-opus-5-5"
+          ],
+          "record": "2–0",
+          "games": [
+            {
+              "id": "R3-4-m1",
+              "A": "claude-fable-5-2",
+              "B": "claude-opus-5-5",
+              "winner": "claude-fable-5-2",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 132,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "b904ca97ec3e85021e4e972777eee56cafd99756a4a515abdd329ecc69dbd76c",
+              "heat": 4
+            },
+            {
+              "id": "R3-4-m2",
+              "A": "claude-opus-5-5",
+              "B": "claude-fable-5-2",
+              "winner": "claude-opus-5-5",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 112,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "4ea84195170cf34db660068e56ba89b5098d9d630532e7d4e93eda187919e384",
+              "heat": 4
+            },
+            {
+              "id": "R3-4-m3",
+              "A": "claude-fable-5-2",
+              "B": "claude-opus-5-5",
+              "winner": "claude-fable-5-2",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 115,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "254e302944aa1d33ab7f142735fdc59d26d6b7574a10ae03568eac27b9be01a4",
+              "heat": 4
+            }
+          ],
+          "winner": "claude-fable-5-2",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R3-5",
+          "bestOf": 3,
+          "teams": [
+            "minimax-minimax-m3.1-flash",
+            "doubao-seed-2.1-pro"
+          ],
+          "record": "0–2",
+          "games": [
+            {
+              "id": "R3-5-m1",
+              "A": "minimax-minimax-m3.1-flash",
+              "B": "doubao-seed-2.1-pro",
+              "winner": "minimax-minimax-m3.1-flash",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 85,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "5befaa7c12cffaded91a4ebf88c9e3f97c335816643db3700044fac72b4812b4",
+              "heat": 4
+            },
+            {
+              "id": "R3-5-m2",
+              "A": "doubao-seed-2.1-pro",
+              "B": "minimax-minimax-m3.1-flash",
+              "winner": "minimax-minimax-m3.1-flash",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 93,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "984b40cb4853f72778c766ebfad78348a536b3ec918b8a750bbb10f20b7c2e13",
+              "heat": 4
+            }
+          ],
+          "winner": "minimax-minimax-m3.1-flash",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R3-6",
+          "bestOf": 1,
+          "teams": [
+            "grok-4.7",
+            "moonshotai-kimi-k3.1-pro"
+          ],
+          "record": "1–1",
+          "games": [
+            {
+              "id": "R3-6-m1",
+              "A": "grok-4.7",
+              "B": "moonshotai-kimi-k3.1-pro",
+              "winner": "moonshotai-kimi-k3.1-pro",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 87,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "6ecf72dcb57bc6231c7e8c636e2e62ab3063fb21aabde4e4e4e520f8bcdc40f3",
+              "heat": 4
+            }
+          ],
+          "winner": "moonshotai-kimi-k3.1-pro",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R3-7",
+          "bestOf": 3,
+          "teams": [
+            "hy4",
+            "upstage-solar-pro4"
+          ],
+          "record": "0–2",
+          "games": [
+            {
+              "id": "R3-7-m1",
+              "A": "hy4",
+              "B": "upstage-solar-pro4",
+              "winner": "hy4",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 77,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "addd9ec660a44d7fbd61b5f69196f3c0c456052546a62d2f66a61b94c4686438",
+              "heat": 4
+            },
+            {
+              "id": "R3-7-m2",
+              "A": "upstage-solar-pro4",
+              "B": "hy4",
+              "winner": "hy4",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 78,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "31e2cf80ee709a1e89cedd5e14b7c9fffccfcab61812fb60571369fdfe9e8c4b",
+              "heat": 6
+            }
+          ],
+          "winner": "hy4",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R3-8",
+          "bestOf": 1,
+          "teams": [
+            "deepseek-v4.1-flash",
+            "glm-5.3"
+          ],
+          "record": "1–1",
+          "games": [
+            {
+              "id": "R3-8-m1",
+              "A": "deepseek-v4.1-flash",
+              "B": "glm-5.3",
+              "winner": "glm-5.3",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 159,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "153d227746fc4be4348b23e931e68bffd0b1d497294da2b3c603deeb1559b40f",
+              "heat": 4
+            }
+          ],
+          "winner": "glm-5.3",
+          "status": "complete",
+          "star": false
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "瑞士轮 · 第 4 轮",
+      "stage": "swiss",
+      "fixtures": [
+        {
+          "id": "R4-1",
+          "bestOf": 3,
+          "teams": [
+            "gpt-6.2-astra",
+            "claude-opus-5-5"
+          ],
+          "record": "2–1",
+          "games": [
+            {
+              "id": "R4-1-m1",
+              "A": "claude-opus-5-5",
+              "B": "gpt-6.2-astra",
+              "winner": "claude-opus-5-5",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 159,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "61627916c3764310fb865702cfe21fef499a18ca915023493eef9ce5dae08e52",
+              "heat": 4
+            },
+            {
+              "id": "R4-1-m2",
+              "A": "gpt-6.2-astra",
+              "B": "claude-opus-5-5",
+              "winner": "gpt-6.2-astra",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 85,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "2108f281054766bd813d9e269f0ca0c1bef9333b9ff6bad9f47f526e8cb22911",
+              "heat": 6
+            },
+            {
+              "id": "R4-1-m3",
+              "A": "claude-opus-5-5",
+              "B": "gpt-6.2-astra",
+              "winner": "claude-opus-5-5",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 155,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "f5c1e09f262a2c1557843782c5ae3b2bb3f24d481636d21f4447d72f9c8f6144",
+              "heat": 5
+            }
+          ],
+          "winner": "claude-opus-5-5",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R4-2",
+          "bestOf": 3,
+          "teams": [
+            "moonshotai-kimi-k3.1-pro",
+            "glm-5.3"
+          ],
+          "record": "2–1",
+          "games": [
+            {
+              "id": "R4-2-m1",
+              "A": "glm-5.3",
+              "B": "moonshotai-kimi-k3.1-pro",
+              "winner": "moonshotai-kimi-k3.1-pro",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 82,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "6c9d14542ee71abc32f6a033d1db0cf65eea73a382db7a52015dc6059385c3e5",
+              "heat": 4
+            },
+            {
+              "id": "R4-2-m2",
+              "A": "moonshotai-kimi-k3.1-pro",
+              "B": "glm-5.3",
+              "winner": "moonshotai-kimi-k3.1-pro",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 85,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "8f3ac001b65c7e3691a701dce994d2b89a2981a2cd218e7863a6ce1da7f862bb",
+              "heat": 3
+            }
+          ],
+          "winner": "moonshotai-kimi-k3.1-pro",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R4-3",
+          "bestOf": 3,
+          "teams": [
+            "qwen-qwen4-max",
+            "deepseek-v4.1-flash"
+          ],
+          "record": "1–2",
+          "games": [
+            {
+              "id": "R4-3-m1",
+              "A": "qwen-qwen4-max",
+              "B": "deepseek-v4.1-flash",
+              "winner": "qwen-qwen4-max",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 78,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "8ed7004da2acf7a7e4a00e450ac3c04c8e37e0e7baa02d78985598980c35bc65",
+              "heat": 6
+            },
+            {
+              "id": "R4-3-m2",
+              "A": "deepseek-v4.1-flash",
+              "B": "qwen-qwen4-max",
+              "winner": "qwen-qwen4-max",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 150,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "aba49ccdbea61deeb5e1a641622ffd5a5e71e0aa417d71ce3b5937369885ca42",
+              "heat": 4
+            }
+          ],
+          "winner": "qwen-qwen4-max",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R4-4",
+          "bestOf": 3,
+          "teams": [
+            "google-gemini-4-carbon",
+            "minimax-minimax-m3.1-flash"
+          ],
+          "record": "1–2",
+          "games": [
+            {
+              "id": "R4-4-m1",
+              "A": "google-gemini-4-carbon",
+              "B": "minimax-minimax-m3.1-flash",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 96,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "cacd06e1ebaf9a32cb22a0cab166ade4b1715eb0904345b2b1fe04f722b534eb",
+              "heat": 4
+            },
+            {
+              "id": "R4-4-m2",
+              "A": "minimax-minimax-m3.1-flash",
+              "B": "google-gemini-4-carbon",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 74,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "19d337cfc1fdffaab591387247341e50d5fa353da2f5d6771b2dd1ad3b0fe989",
+              "heat": 5
+            }
+          ],
+          "winner": "google-gemini-4-carbon",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R4-5",
+          "bestOf": 3,
+          "teams": [
+            "grok-4.7",
+            "hy4"
+          ],
+          "record": "1–2",
+          "games": [
+            {
+              "id": "R4-5-m1",
+              "A": "grok-4.7",
+              "B": "hy4",
+              "winner": "hy4",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 194,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "09e958c2a50cdc95af7d75304a30291696113ec3273b563a4dca146422da0c4b",
+              "heat": 4
+            },
+            {
+              "id": "R4-5-m2",
+              "A": "hy4",
+              "B": "grok-4.7",
+              "winner": "hy4",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 107,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "16822a62d3187b82ee71b2cbb0735ef1a3442dd9fb9c17daf6554763fffa84af",
+              "heat": 4
+            }
+          ],
+          "winner": "hy4",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R4-6",
+          "bestOf": 3,
+          "teams": [
+            "gpt-6.2-sol",
+            "xiaomi-mimo-v2.6-pro"
+          ],
+          "record": "2–1",
+          "games": [
+            {
+              "id": "R4-6-m1",
+              "A": "gpt-6.2-sol",
+              "B": "xiaomi-mimo-v2.6-pro",
+              "winner": "gpt-6.2-sol",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 112,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "e2f44588b2b880db6452fbbe88e8b3689d399a75750fc3a399517ce2c4597bad",
+              "heat": 6
+            },
+            {
+              "id": "R4-6-m2",
+              "A": "xiaomi-mimo-v2.6-pro",
+              "B": "gpt-6.2-sol",
+              "winner": "gpt-6.2-sol",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 82,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "0eb038c6e9eea86b79ffda66293ecdacea27e194108d37799bd6e84ce6bf3a1a",
+              "heat": 6
+            }
+          ],
+          "winner": "gpt-6.2-sol",
+          "status": "complete",
+          "star": true
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "title": "瑞士轮 · 第 5 轮",
+      "stage": "swiss",
+      "fixtures": [
+        {
+          "id": "R5-1",
+          "bestOf": 3,
+          "teams": [
+            "hy4",
+            "glm-5.3"
+          ],
+          "record": "2–2",
+          "games": [
+            {
+              "id": "R5-1-m1",
+              "A": "glm-5.3",
+              "B": "hy4",
+              "winner": "hy4",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 87,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "25d0d6af7b31f27cc77ad6195ac9cc66a5b513bf0465673603aa5c9d9f2eab8e",
+              "heat": 4
+            },
+            {
+              "id": "R5-1-m2",
+              "A": "hy4",
+              "B": "glm-5.3",
+              "winner": "hy4",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 83,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "05068006ff4fb20f607744cc6a3a3ef8e3297f3e04458e4b0eb388febbc4b8c0",
+              "heat": 4
+            }
+          ],
+          "winner": "hy4",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "R5-2",
+          "bestOf": 3,
+          "teams": [
+            "google-gemini-4-carbon",
+            "xiaomi-mimo-v2.6-pro"
+          ],
+          "record": "2–2",
+          "games": [
+            {
+              "id": "R5-2-m1",
+              "A": "google-gemini-4-carbon",
+              "B": "xiaomi-mimo-v2.6-pro",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 242,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "3ea6c5b832b4bc23dbd84ace389c4d66c3fec561c2528352eee716493e16a1f3",
+              "heat": 6
+            },
+            {
+              "id": "R5-2-m2",
+              "A": "xiaomi-mimo-v2.6-pro",
+              "B": "google-gemini-4-carbon",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 95,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "6fd43cd47806a143bb04aacb38df84836af65ff823fdb0c20259e62c44839137",
+              "heat": 4
+            }
+          ],
+          "winner": "google-gemini-4-carbon",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "R5-3",
+          "bestOf": 3,
+          "teams": [
+            "gpt-6.2-astra",
+            "qwen-qwen4-max"
+          ],
+          "record": "2–2",
+          "games": [
+            {
+              "id": "R5-3-m1",
+              "A": "qwen-qwen4-max",
+              "B": "gpt-6.2-astra",
+              "winner": "gpt-6.2-astra",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 66,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "62bf8027d8a6713b48e06f1168c4ca5564f95da3715e4e9abef165e3b47ed201",
+              "heat": 4
+            },
+            {
+              "id": "R5-3-m2",
+              "A": "gpt-6.2-astra",
+              "B": "qwen-qwen4-max",
+              "winner": "gpt-6.2-astra",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 134,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "a1f22e07ab471c49bb9d8252c52cd630265f83706793507568affecba8b2153d",
+              "heat": 4
+            }
+          ],
+          "winner": "gpt-6.2-astra",
+          "status": "complete",
+          "star": false
+        }
+      ]
+    },
+    {
+      "id": "QF",
+      "title": "四分之一决赛",
+      "stage": "knockout",
+      "fixtures": [
+        {
+          "id": "QF-1",
+          "bestOf": 5,
+          "teams": [
+            "google-gemini-4-neon",
+            "hy4"
+          ],
+          "games": [
+            {
+              "id": "QF-1-m1",
+              "A": "hy4",
+              "B": "google-gemini-4-neon",
+              "winner": "google-gemini-4-neon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 112,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "a0913a6f58d235d074c0dc82aef39d654c60b8c626d78d385a69c087fa1e3dd9",
+              "heat": 4
+            },
+            {
+              "id": "QF-1-m2",
+              "A": "google-gemini-4-neon",
+              "B": "hy4",
+              "winner": "google-gemini-4-neon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 90,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "0f47fbda2d8d357fb8d0e901f052d60ddd26259bd7da9e3fc9ca91bb9658bc7f",
+              "heat": 4
+            },
+            {
+              "id": "QF-1-m3",
+              "A": "hy4",
+              "B": "google-gemini-4-neon",
+              "winner": "google-gemini-4-neon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 102,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "feb213036833b1f63e25219264e1c0352aa0c744df41e72ad2140ddebc98b61a",
+              "heat": 4
+            }
+          ],
+          "winner": "google-gemini-4-neon",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "QF-2",
+          "bestOf": 5,
+          "teams": [
+            "gpt-6.2-sol",
+            "moonshotai-kimi-k3.1-pro"
+          ],
+          "games": [
+            {
+              "id": "QF-2-m1",
+              "A": "moonshotai-kimi-k3.1-pro",
+              "B": "gpt-6.2-sol",
+              "winner": "gpt-6.2-sol",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 76,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "28b70a83b7d56425bd69679e5e204fe8a4d9498db0155f0813d2df612e158c90",
+              "heat": 4
+            },
+            {
+              "id": "QF-2-m2",
+              "A": "gpt-6.2-sol",
+              "B": "moonshotai-kimi-k3.1-pro",
+              "winner": "gpt-6.2-sol",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 88,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "9f3f4a2335bb18a10a79819476f98e6e1ced50bb12d5cb693c8b81adc7588d36",
+              "heat": 3
+            },
+            {
+              "id": "QF-2-m3",
+              "A": "moonshotai-kimi-k3.1-pro",
+              "B": "gpt-6.2-sol",
+              "winner": "gpt-6.2-sol",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 106,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "5e7feebb18a8633de8a15735308935c976f407d035dc5cf6113356ca6580d812",
+              "heat": 4
+            }
+          ],
+          "winner": "gpt-6.2-sol",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "QF-3",
+          "bestOf": 5,
+          "teams": [
+            "claude-fable-5-2",
+            "google-gemini-4-carbon"
+          ],
+          "games": [
+            {
+              "id": "QF-3-m1",
+              "A": "claude-fable-5-2",
+              "B": "google-gemini-4-carbon",
+              "winner": "claude-fable-5-2",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 74,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "a9435ce3ae829c85481f120ff4bfcabb069155ca0d7ac21d898af387d0d76556",
+              "heat": 4
+            },
+            {
+              "id": "QF-3-m2",
+              "A": "google-gemini-4-carbon",
+              "B": "claude-fable-5-2",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 82,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "6b8c4595e611d056206c01e20c396e2af1388790f9b7f2ba3a120aabb2d9e486",
+              "heat": 4
+            },
+            {
+              "id": "QF-3-m3",
+              "A": "claude-fable-5-2",
+              "B": "google-gemini-4-carbon",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 121,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "bbf4ebcb041bd3778c28aa359990cbeed9f634140f0bbc18c1fa0a21eb9574d4",
+              "heat": 4
+            },
+            {
+              "id": "QF-3-m4",
+              "A": "google-gemini-4-carbon",
+              "B": "claude-fable-5-2",
+              "winner": "claude-fable-5-2",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 115,
+              "faults": {},
+              "replay": "sparring-3-blue.json.gz",
+              "replaySha256": "b3a36313001b2c497f7da3e619062ad34a33b7a28e3157408eb3e6fe35f4383c",
+              "heat": 6
+            },
+            {
+              "id": "QF-3-m5",
+              "A": "claude-fable-5-2",
+              "B": "google-gemini-4-carbon",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 83,
+              "faults": {},
+              "replay": "sparring-4-blue.json.gz",
+              "replaySha256": "a644330c4602b22c0d8e4d9602fe63a49fa4449acb4c75fb58d7dfbe1f5c598a",
+              "heat": 4
+            }
+          ],
+          "winner": "google-gemini-4-carbon",
+          "status": "complete",
+          "star": true
+        },
+        {
+          "id": "QF-4",
+          "bestOf": 5,
+          "teams": [
+            "claude-opus-5-5",
+            "gpt-6.2-astra"
+          ],
+          "games": [
+            {
+              "id": "QF-4-m1",
+              "A": "claude-opus-5-5",
+              "B": "gpt-6.2-astra",
+              "winner": "claude-opus-5-5",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 134,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "8aa9b0d84b4c351900aef6c9b4b7eda4dbf241f8046d375bb4cbd11926ddff51",
+              "heat": 4
+            },
+            {
+              "id": "QF-4-m2",
+              "A": "gpt-6.2-astra",
+              "B": "claude-opus-5-5",
+              "winner": "claude-opus-5-5",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 127,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "08b0aa88fd022ecc8c2d2d1311410593a9284f383eac507f78e5d155dc6cdc52",
+              "heat": 4
+            },
+            {
+              "id": "QF-4-m3",
+              "A": "claude-opus-5-5",
+              "B": "gpt-6.2-astra",
+              "winner": "claude-opus-5-5",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 152,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "d65f5b8b7ba43644e32315982feff16eaf4bb67bc194caed97c27101d7938b49",
+              "heat": 6
+            }
+          ],
+          "winner": "claude-opus-5-5",
+          "status": "complete",
+          "star": true
+        }
+      ]
+    },
+    {
+      "id": "SF",
+      "title": "半决赛",
+      "stage": "knockout",
+      "fixtures": [
+        {
+          "id": "SF-1",
+          "bestOf": 5,
+          "teams": [
+            "google-gemini-4-neon",
+            "gpt-6.2-sol"
+          ],
+          "games": [
+            {
+              "id": "SF-1-m1",
+              "A": "google-gemini-4-neon",
+              "B": "gpt-6.2-sol",
+              "winner": "gpt-6.2-sol",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 94,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "72a90395316e756e6a8ddd1109c63efceaa8d78d5423c28fc2da0be52c40b3b1",
+              "heat": 4
+            },
+            {
+              "id": "SF-1-m2",
+              "A": "gpt-6.2-sol",
+              "B": "google-gemini-4-neon",
+              "winner": "gpt-6.2-sol",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 98,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "d6f5ebbf00b156ad007dd9f8218989e1905d961e9061a4cdad6dd01f7e3477be",
+              "heat": 4
+            },
+            {
+              "id": "SF-1-m3",
+              "A": "google-gemini-4-neon",
+              "B": "gpt-6.2-sol",
+              "winner": "google-gemini-4-neon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 161,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "eddd00388004fc583716b637dd2db3d7c949cb84f3c0d7269a91a5bc6b7433c6",
+              "heat": 4
+            },
+            {
+              "id": "SF-1-m4",
+              "A": "gpt-6.2-sol",
+              "B": "google-gemini-4-neon",
+              "winner": "gpt-6.2-sol",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 114,
+              "faults": {},
+              "replay": "sparring-3-blue.json.gz",
+              "replaySha256": "c6ed34cafbf16168f9e04d4f34e72587437656840e006be036b8880dcdf9a7c5",
+              "heat": 4
+            }
+          ],
+          "winner": "gpt-6.2-sol",
+          "status": "complete",
+          "star": false
+        },
+        {
+          "id": "SF-2",
+          "bestOf": 5,
+          "teams": [
+            "google-gemini-4-carbon",
+            "claude-opus-5-5"
+          ],
+          "games": [
+            {
+              "id": "SF-2-m1",
+              "A": "claude-opus-5-5",
+              "B": "google-gemini-4-carbon",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 99,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "18ab9b6c19d3161b2ac6e0f897a0caa8429a89f943b3e27904c75ecfe1dd3fda",
+              "heat": 4
+            },
+            {
+              "id": "SF-2-m2",
+              "A": "google-gemini-4-carbon",
+              "B": "claude-opus-5-5",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 90,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "791ab6d8c0b259cd1c8cde1cc8e8b6e7682d51bbc2ffb9db91692f9f8c63b568",
+              "heat": 4
+            },
+            {
+              "id": "SF-2-m3",
+              "A": "claude-opus-5-5",
+              "B": "google-gemini-4-carbon",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 88,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "e459ee5e313ecc8e13c41902d4f9d74f38368a7b051d804593a30b70433be52f",
+              "heat": 4
+            }
+          ],
+          "winner": "google-gemini-4-carbon",
+          "status": "complete",
+          "star": false
+        }
+      ]
+    },
+    {
+      "id": "GF",
+      "title": "决赛",
+      "stage": "knockout",
+      "fixtures": [
+        {
+          "id": "GF-1",
+          "bestOf": 5,
+          "teams": [
+            "gpt-6.2-sol",
+            "google-gemini-4-carbon"
+          ],
+          "games": [
+            {
+              "id": "GF-1-m1",
+              "A": "google-gemini-4-carbon",
+              "B": "gpt-6.2-sol",
+              "winner": "gpt-6.2-sol",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 108,
+              "faults": {},
+              "replay": "sparring-0-blue.json.gz",
+              "replaySha256": "468d6a268c5c3b58ca89113dc544db9d52e345f0d2d4ffbf29f5048f82e7d89f",
+              "heat": 5
+            },
+            {
+              "id": "GF-1-m2",
+              "A": "gpt-6.2-sol",
+              "B": "google-gemini-4-carbon",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 167,
+              "faults": {},
+              "replay": "sparring-1-blue.json.gz",
+              "replaySha256": "bb325b27a778a1d43f0c833d2b6cd33c86db65ef7864e5246d4975ad33c6a8ef",
+              "heat": 4
+            },
+            {
+              "id": "GF-1-m3",
+              "A": "google-gemini-4-carbon",
+              "B": "gpt-6.2-sol",
+              "winner": "google-gemini-4-carbon",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 171,
+              "faults": {},
+              "replay": "sparring-2-blue.json.gz",
+              "replaySha256": "8fc73a0a19b2c9a58c3246fe601d1aa53ca78fbdbf1c5c98937e3d58fb9cd20d",
+              "heat": 6
+            },
+            {
+              "id": "GF-1-m4",
+              "A": "gpt-6.2-sol",
+              "B": "google-gemini-4-carbon",
+              "winner": "gpt-6.2-sol",
+              "outcome": "win",
+              "reason": "base",
+              "turns": 117,
+              "faults": {},
+              "replay": "sparring-3-blue.json.gz",
+              "replaySha256": "1cfa6e1bae685c5863de44aa994651e1ba52e610aab8b0d895685382699f31b3",
+              "heat": 4
+            },
+            {
+              "id": "GF-1-m5",
+              "A": "google-gemini-4-carbon",
+              "B": "gpt-6.2-sol",
+              "winner": "gpt-6.2-sol",
+              "outcome": "loss",
+              "reason": "base",
+              "turns": 110,
+              "faults": {},
+              "replay": "sparring-4-blue.json.gz",
+              "replaySha256": "20a4c604bd44c49c09e64c74c22f4af21ad6de5d64748e4e5a08fb7671b2c714",
+              "heat": 4
+            }
+          ],
+          "winner": "gpt-6.2-sol",
+          "status": "complete",
+          "star": true
+        }
+      ]
+    }
+  ],
+  "champion": "gpt-6.2-sol",
+  "name": "正式杯赛 1",
+  "mode": "sealed",
+  "createdAt": "2026-11-20T08:28:00.422Z",
+  "format": "cup-swiss",
+  "configSha256": "ea566b1ebcf33fb3631408bfd3cdfdfc4ead5250247aa601032c63589d2ffd63",
+  "seedCommitment": "ffa421c7902dbb3bf065f83d491693aef1d6ef9d54937e6d4aaa4d289e73f3f0"
+}

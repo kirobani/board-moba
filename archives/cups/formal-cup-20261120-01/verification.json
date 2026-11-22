@@ -1,0 +1,10 @@
+{
+  "id": "formal-cup-20261120-01",
+  "state": "complete-verified",
+  "at": "2026-11-20T08:32:07.868Z",
+  "games": 74,
+  "series": 40,
+  "seedCommitment": "ffa421c7902dbb3bf065f83d491693aef1d6ef9d54937e6d4aaa4d289e73f3f0",
+  "engineSha256": "fa08a6552629dec4ba42007d9e394bfd9380f1ed975fe5b536cb880bc320a9b9",
+  "configSha256": "ea566b1ebcf33fb3631408bfd3cdfdfc4ead5250247aa601032c63589d2ffd63"
+}

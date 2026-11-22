@@ -1,0 +1,24 @@
+棋盘 MOBA 指令接口
+
+野区按同一路的红蓝镜像配对。A_camp_N 对应 B_camp_N；坐标 (q,r) 对应 (r,q)。法术候选按出手方视角枚举。
+
+地图：每队每回合提交 {"orders":[...]}，每名英雄一条指令；漏发/重复按待命。法术、收割和普攻不能同时使用。
+普攻（上、中、射、野）：{"unit":"A_mid","action":"attack","target":"B_top"}；无隔回合冷却。
+中路法术：{"unit":"A_mid","action":"spell","cells":[[0,0],[1,0],[1,-1]]}。三个不同格均距本人≤1，且三格连成一片，跨线上和野区不受地形限制。团内也可提交不带 cells 的 spell，对同一团战的所有存活敌人各打一次。
+射手收割：{"unit":"A_adc","action":"reap","target":"B_top"}。团外按原有两格射程和地形限制，同一场团战内可选任意存活敌人。伤害为 floor(攻击力×1.2)，CD5。受这名射手收割伤害的敌人在本回合阵亡才刷新。
+地图第 R 回合施法，第 R+2 回合恢复。第 R 回合收割，第 R+5 回合恢复。非法指令不消耗冷却。
+其他动作：move/teleport/engage 带 to:[q,r]。capture/heal/control 带 target。push 带 lane:"top"|"mid"|"bottom"。recall/wait 不带目标。打野和辅助均可 engage，从第21回合起，各自计算冷却。
+上路teleport目标包括己方基地与己方防御塔原位置（存活或废墟均可）；仍为31回合解锁、CD20，泉水和敌方建筑位置不可选，团战及整理回合不可传送。
+公开状态：decisionTurn 和 heroes[].allowedActions、spellReady、reapReady、utilityReady、spellTargets（三格组合）、spellEngagementTargets（同团法术目标 ID）、reapTargets（ID）、engageAvailable、recallAllowed。attackReady 为兼容字段。recallAllowed 表示可以尝试，本回合受伤或被控制会打断。
+最终决战：仅当前actor提交一条。中路spell不带cells/target/to，打全部存活敌人；射手reap带target，不检查位置。技能冷却按personalTurn；仅同一battle.round内实际受过该射手收割伤害的敌人阵亡可刷新，进入下一round清空记录。
+地图普攻和收割的合法目标普通移动出射程，或地图三格法术的合法目标普通移动出三格时，按原经济闪避公式结算。成功免伤，失败受完整伤害。技能消耗冷却。团内全团法术直接命中同团敌人。
+地图阶段的普攻、法术、收割统一结算，不抽先后。按回合开始时面板计算伤害，合法命中全部记下再统一扣血、处理阵亡，因此允许互杀。最终决战按公开行动顺序逐次结算。
+辅助控制在地图上射程1格，同团依旧无距离限制。CD3、必定命中，下一回合/下次行动跳过一次。治疗无CD。
+基地推进伤害同防御塔：每人min(4,1+floor(回合开始金钱/500))；必须已打通至少一路，打通后取消1/3点合计限伤。
+射手每路基础份额外加2；例如单吃14、射辅11.6/3.6。
+算法不可读取隐藏种子、未公告远古计划或对方本回合指令。每次decide仍限2000ms；源码≤1MiB，启动初始化各限1000ms。
+
+分位置与教练试验
+地图阶段允许附加单条 coach 指令。示例 {"orders":[{"unit":"A_mid","action":"wait"}],"coach":{"unit":"A_mid","action":"coach_engage","to":[1,0]}}。
+五个位置先各自提案。教练随后拿到同一份公开棋盘和五条己方提案，可返回一条己方替代指令或 null。非法替代保留位置原案。
+coach_engage 使用被点名的英雄检查站位和可行动状态，并覆盖该英雄当回合的指令。开团效果与原技能相同。每队教练独立计算冷却，成功开团后从该团整理回合起计算。地图结算记录 coach_override 的原案和新指令。最终决战由当前轮到的位置单独判断。

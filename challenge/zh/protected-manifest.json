@@ -1,0 +1,17 @@
+{
+  "files": {
+    "API.txt": "97c1853a25e73b6fe515023af3fe5d7300c972f235ba2543f24cc45ca4952146",
+    "baseline-games.js": "a1d6ecc93c8cf71862f87ef22d6c63d4b4ae0a8a867c2b66207e13129ab12c96",
+    "config.json": "38fc931d0aeef30cdf7d0d88deebd2b981d698bb2d1319fe986c541684606d5a",
+    "engine.cjs": "c4a8e5652fec41a608d875ea7992f360a1d230794f7e261448d04aa9d0a6a82a",
+    "map.json": "737049a497fd487280c3c75c3c81495c46824bfb748b6fb75c1ef89cf9f8ac74",
+    "PROMPT_AGENT.txt": "aa207ac5df8d5aa7f2826c4571e7923ea80928f150baf6fd55483e56f266ed3b",
+    "referee.cjs": "aaaf5ae7faf845fbcaf0b7d10b712c5a814fe87552a5af35c3bf91dee6be6ad9",
+    "submit.cjs": "37d0d690f1b0252f9887c8d362962c41d5f74239f512d2aec2a9f9de67777db6",
+    "time-left.cjs": "c8adaaf0acb515a030d6b4ccd688c3a23088b092c4cd2e583e3fc3f47ccefaf7",
+    "参赛工具.md": "e973538d19bea674a3e07eb23697fb45fe90a1c477044941b21b4aba1d7a3d54",
+    "完整规则.txt": "93dfa88c93f41f4e5815f5c37f5045e023dd49d2d90d4dab4a44fb8ea6304f25",
+    "平衡参数.md": "545be4b9bed45071217e80f5bcb71f858edfc07a97f5b413adaa4c46dcf75d83",
+    "赛题.md": "aef6723eaa7777237a995b633da1ce84d821378c454a86abc15ca33ecbc1e513"
+  }
+}

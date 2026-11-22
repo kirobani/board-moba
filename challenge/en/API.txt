@@ -1,0 +1,34 @@
+# Order API
+
+A_camp_N pairs with B_camp_N in the same lane. Axial coordinates (q,r) mirror to (r,q). Spell combinations are enumerated from the acting team's perspective.
+
+The map engine takes {"orders":[...]}, one order per unit. When writing your submission, return just the current hero's order from its role module. Missing or duplicate orders are treated as wait. Only one action is available per hero per turn.
+
+```json
+{"unit":"A_mid","action":"attack","target":"B_top"}
+{"unit":"A_mid","action":"spell","cells":[[0,0],[1,0],[1,-1]]}
+{"unit":"A_mid","action":"spell"}
+{"unit":"A_adc","action":"reap","target":"B_top"}
+{"unit":"A_jungle","action":"capture","target":"A_camp_1"}
+{"unit":"A_support","action":"push","lane":"mid"}
+{"unit":"A_support","action":"heal","target":"A_adc"}
+{"unit":"A_support","action":"control","target":"B_mid"}
+{"unit":"A_top","action":"move","to":[-3,3]}
+{"unit":"A_top","action":"teleport","to":[-3,3]}
+{"unit":"A_support","action":"engage","to":[0,0]}
+{"unit":"A_jungle","action":"recall"}
+{"unit":"A_jungle","action":"wait"}
+```
+
+- Attack is available to every map role except support. There is no attack cooldown. Spell targets three distinct connected tiles at distance 0–1, with no lane/jungle restriction. In an engagement, spell without `cells` hits every living enemy in that engagement. Spell used on R is ready on R+2.
+- Reap hits one enemy at map range 2, following the normal terrain restrictions. Reap can target any enemy in the same engagement. Damage is floor(attack × 1.2), available again on R+5, or refreshed when an enemy actually damaged by that ADC's reap dies that turn.
+- `move`, `teleport` and `engage` take `to:[q,r]`. `capture`, `heal` and `control` take `target`. `push` takes `lane:"top"|"mid"|"bottom"`. `recall` and `wait` have no target.
+- Control is guaranteed when legal, with range 1 or unrestricted range inside the same engagement. It prevents the next action, interrupts a pending recall and has a three-turn cooldown. Heal has no cooldown.
+- Engage unlocks on turn 21 for jungle and support. Top teleport unlocks on turn 31 with a 20-turn cooldown. Valid teleport destinations are the team's base and original tower locations, including ruins. Engagement and cleanup prevent teleport.
+- Consult `decisionTurn`, `heroes[].allowedActions`, `spellReady`, `reapReady`, `utilityReady`, `spellTargets`, `spellEngagementTargets`, `reapTargets`, `engageAvailable` and `recallAllowed`. Readiness fields are due turns. `attackReady` is for compatibility. A hero marked `recallAllowed` can attempt recall. Damage, control or a new engagement can interrupt it.
+- If a target legally inside the pre-move range of attack, reap or a three-tile spell moves out normally, apply economic dodge. A hit deals full damage; a miss deals zero. Either uses the action and its cooldown. All applicable map hits are recorded before damage and deaths are committed. Final battle actions resolve one by one.
+- Building damage per valid push participant is min(4, 1 + floor(start-of-turn gold / 500)). A full open lane is needed to damage a base. Early-turn caps are in BALANCE.md. ADC earns 2 additional gold per lane income pool it qualifies for.
+- In the final battle only the current actor can act. Mid uses `spell` without `cells`, `target` or `to` to hit all living enemies. ADC can `reap` any living enemy, with refresh credit limited to a reap hit within that same `battle.round`. Cooldowns use `personalTurn`, not `decisionTurn`. See RULES.txt for final-battle fields.
+- The coach can return one legal allied replacement order or null. `{"unit":"A_mid","action":"coach_engage","to":[1,0]}` uses that hero's position and replaces their order. Illegal replacements preserve the original. Coach engagement has an independent team cooldown starting in cleanup. Executed overrides appear as `coach_override`. The final battle calls only the actor's role.
+
+Never rely on future spawns, hidden seeds or simultaneous enemy orders. The team gets 2,000 ms per decision and 1,000 ms each for engine/module initialization. Total team source is at most 1 MiB.

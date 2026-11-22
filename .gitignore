@@ -1,0 +1,6 @@
+/.local/
+/.venv/
+__pycache__/
+*.py[cod]
+/.env
+/.referee-access.json

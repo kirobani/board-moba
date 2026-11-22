@@ -1,0 +1,7 @@
+* text=auto eol=lf
+referee/judge-engine.cjs -text
+referee/config.json -text
+referee/agents/*.cjs -text
+challenge/zh/** -text
+challenge/en/** -text
+*.gz binary

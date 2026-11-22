@@ -1,0 +1,111 @@
+/* Sandbox human-control HUD. Loaded only by sandbox.html; every selector is scoped to .sbh-* or body.sbh-sandbox. */
+body.sbh-sandbox .arena-watchbar{background:linear-gradient(#0f1430,#0a0d1d);border-bottom:2px solid #2a3363;font:12px/1.4 "Cascadia Mono","Consolas","Microsoft YaHei","PingFang SC",monospace;gap:8px;padding:8px 12px}
+body.sbh-sandbox .arena-watchbar button,body.sbh-sandbox .arena-watchbar select{background:#141a33;color:#e6e9f7;border:2px solid #3a4686;border-radius:0;box-shadow:0 2px 0 #000;padding:5px 10px;font:inherit;cursor:pointer;min-height:34px}
+body.sbh-sandbox .arena-watchbar button:hover{border-color:#7f8cff}
+body.sbh-sandbox .arena-watchbar button:active{transform:translateY(1px);box-shadow:none}
+body.sbh-sandbox .arena-watchbar #pauseLive,body.sbh-sandbox .arena-watchbar #singleStep{background:#26305e;border-color:#9fb0ff}
+body.sbh-sandbox .arena-watchbar #stopSandbox{margin-left:14px;border-color:#7a2a34;color:#ffb0b0;background:#1d1220}
+body.sbh-sandbox .arena-watchbar #stopSandbox.sbh-armed{background:#8a1f2c;color:#fff;border-color:#ff8a8a;animation:sbh-blink .6s steps(2) infinite}
+body.sbh-sandbox .arena-watchbar strong{color:#ffe066;letter-spacing:1px}
+body.sbh-sandbox .arena-stream-status{background:#070912;color:#9aa6d6;font:12px "Cascadia Mono","Consolas","Microsoft YaHei",monospace;border-bottom:1px solid #1b2148;padding:6px 14px}
+@keyframes sbh-blink{50%{opacity:.6}}
+
+.sbh-dock{--sc:#3d8bff;--sc2:#8fc6ff;position:relative;border:2px solid #2a3363;background:repeating-linear-gradient(to bottom,rgba(255,255,255,.018) 0 1px,transparent 1px 3px),#0b0f22;box-shadow:inset 0 0 0 2px #000,0 0 18px rgba(40,60,160,.18);padding:6px 8px 8px;min-width:0;color:#e6e9f7}
+.sbh-dock[data-side=B]{--sc:#ff5a3c;--sc2:#ffa08a}
+.sbh-dock *{box-sizing:border-box}
+.sbh-dock button{font:inherit;color:inherit;cursor:pointer;border-radius:0}
+.sbh-dock button:disabled{cursor:not-allowed}
+.sbh-dock :focus-visible{outline:2px solid #ffe066;outline-offset:1px}
+.sbh-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
+.sbh-title{font-weight:900;letter-spacing:2px;color:#ffe066;text-shadow:0 0 8px rgba(255,210,80,.35),2px 2px 0 #4a2a00;white-space:nowrap;font-size:13px}
+.sbh-title small{color:#8f97bd;letter-spacing:0;font-weight:600;margin-left:6px;text-shadow:none}
+.sbh-sides{display:flex;gap:4px}
+.sbh-side{background:#141a33;border:2px solid #3a4686;padding:3px 9px;box-shadow:0 2px 0 #000;min-height:32px;font-weight:800}
+.sbh-side[data-team=A]{color:#8fc6ff}.sbh-side[data-team=B]{color:#ffa08a}
+.sbh-side.on[data-team=A]{background:#163063;border-color:#3d8bff}.sbh-side.on[data-team=B]{background:#5a1f16;border-color:#ff5a3c}
+.sbh-side em{font-style:normal;font-size:10px;color:#c9cfea;margin-left:4px}
+.sbh-side.done em{color:#7dff9a}
+.sbh-msg{flex:1;min-width:160px;font-size:11.5px;color:#c9cfea;padding:3px 7px;border-left:3px solid var(--sc);background:rgba(255,255,255,.03)}
+.sbh-msg[data-tone=warn]{border-left-color:#ffd447;color:#ffe9a8}.sbh-msg[data-tone=bad]{border-left-color:#ff4d4d;color:#ffb0b0}.sbh-msg[data-tone=ok]{border-left-color:#4ee36a;color:#b6ffc4}.sbh-msg[data-tone=lock]{border-left-color:#8f97bd;color:#aab2d6}
+.sbh-heroes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;margin-top:6px}
+.sbh-heroes.solo{grid-template-columns:minmax(0,260px)}
+.sbh-hero{position:relative;display:grid;grid-template-columns:30px minmax(0,1fr);grid-template-rows:auto auto auto;column-gap:5px;align-items:center;text-align:left;background:#0b0f20;border:2px solid #1f2650;padding:4px 5px;min-height:58px;box-shadow:0 2px 0 #000;min-width:0}
+.sbh-hero:hover:not(:disabled){border-color:#3a4686}
+.sbh-hero.on{border-color:#ffe066;box-shadow:0 0 0 1px #ffe066 inset,0 0 12px rgba(255,224,102,.25)}
+.sbh-hero.dead{opacity:.55;filter:grayscale(.8)}
+.sbh-hero canvas{grid-row:1/3;width:30px;height:30px;image-rendering:pixelated;background:#10152b;border:1px solid #2a3363}
+.sbh-hn{font-size:11.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--sc2)}
+.sbh-hn b{display:inline-block;min-width:16px;text-align:center;background:#222a55;color:#dfe4ff;font-size:10px;margin-right:3px}
+.sbh-hp{height:5px;background:#20253f;border:1px solid #000;position:relative;min-width:0}
+.sbh-hp i{position:absolute;left:0;top:0;bottom:0;background:#4ee36a}.sbh-hp i.md{background:#ffd447}.sbh-hp i.lo{background:#ff4d4d}
+.sbh-power{grid-column:1/-1;color:#f3d6a1;font-size:10.5px;font-variant-numeric:tabular-nums}
+.sbh-ho{grid-column:1/-1;display:flex;align-items:center;gap:3px;margin-top:3px;font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#8f97bd;min-width:0;border-left:2px solid #444;padding-left:3px}
+.sbh-ho canvas{grid-row:auto;width:14px;height:14px;border:0;background:none;flex:none}
+.sbh-ho span{overflow:hidden;text-overflow:ellipsis}
+.sbh-ho.set{color:#fff3c4;border-left-color:var(--ac,#ffe066)}
+.sbh-pos{font-size:10px;color:#7d84a6;white-space:nowrap}
+.sbh-acts{display:grid;grid-template-columns:repeat(auto-fill,minmax(62px,1fr));gap:5px;margin-top:6px}
+.sbh-act{--ac:#a9b4d6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:#141a33;border:2px solid #3a4686;border-bottom-color:var(--ac);box-shadow:0 2px 0 #000;padding:4px 2px;min-height:48px;font-size:11.5px;font-weight:700}
+.sbh-act canvas{width:21px;height:21px;image-rendering:pixelated}
+.sbh-act small{font-size:9.5px;color:#8f97bd;font-weight:400;line-height:1}
+.sbh-act:hover:not(:disabled){border-color:var(--ac)}
+.sbh-act.on{background:color-mix(in srgb,var(--ac) 30%,#141a33);border-color:var(--ac);box-shadow:0 0 10px color-mix(in srgb,var(--ac) 45%,transparent),0 2px 0 #000}
+.sbh-act:disabled{opacity:.4}
+.sbh-targets{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:6px;min-height:30px;font-size:11.5px}
+.sbh-tlabel{color:#ffe066;font-weight:800;white-space:nowrap}
+.sbh-hint{color:#9aa6d6;font-size:11px}
+.sbh-tgt{display:inline-flex;align-items:center;gap:4px;background:#0b0f20;border:1px solid #3a4686;padding:3px 7px;min-height:32px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sbh-tgt canvas{width:18px;height:18px;image-rendering:pixelated;flex:none}
+.sbh-tgt.on{border-color:#ffe066;background:#2a2a10;color:#fff3c4}
+.sbh-tgt.enemy{border-color:#7a2a34}.sbh-tgt.ally{border-color:#2a6a3a}
+.sbh-clear{background:#1d1220;border:1px solid #7a2a34;color:#ffb0b0;padding:3px 8px;min-height:32px}
+.sbh-foot{display:flex;align-items:center;gap:8px;margin-top:7px;flex-wrap:wrap}
+.sbh-sum{flex:1;min-width:150px;font-size:11px;color:#c9cfea}
+.sbh-sum b{color:#ffe066}
+.sbh-reset{background:#141a33;border:2px solid #3a4686;padding:5px 10px;box-shadow:0 2px 0 #000;min-height:40px}
+.sbh-submit{background:var(--sc);color:#05060c;border:2px solid #000;box-shadow:inset -3px -3px 0 rgba(0,0,0,.35),inset 3px 3px 0 rgba(255,255,255,.25),0 3px 0 #000;padding:7px 16px;font-weight:900;letter-spacing:1px;min-height:42px;font-size:13px}
+.sbh-submit:disabled{background:#2a3050;color:#7d84a6;box-shadow:0 2px 0 #000}
+.sbh-submit:not(:disabled):active{transform:translateY(2px);box-shadow:0 1px 0 #000}
+.sbh-alt{margin-top:6px;font-size:11px;color:#8f97bd}
+.sbh-alt summary{cursor:pointer;color:#9aa6d6}
+.sbh-alt label{display:inline-flex;align-items:center;gap:3px;margin:4px 6px 0 0}
+.sbh-alt input{width:54px;background:#0b0f20;color:#e6e9f7;border:1px solid #3a4686;padding:4px;font:inherit}
+.sbh-alt button{background:#141a33;border:1px solid #3a4686;padding:4px 8px;min-height:30px}
+.sbh-lock .sbh-heroes,.sbh-lock .sbh-acts,.sbh-lock .sbh-targets{opacity:.55}
+.sbh-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.sbh-overlay{position:absolute;left:0;top:0;z-index:2;pointer-events:none;overflow:visible;shape-rendering:crispEdges}
+.sbh-overlay .sbh-hit{pointer-events:all;cursor:crosshair}
+.sbh-overlay .cell{fill:var(--ac);fill-opacity:.16;stroke:var(--ac);stroke-width:1.5;stroke-dasharray:3 2}
+.sbh-overlay .cell.has{fill-opacity:.3;stroke-dasharray:none}
+.sbh-overlay .cell.pick{fill:#ffe066;fill-opacity:.32;stroke:#ffe066;stroke-width:2;stroke-dasharray:none}
+.sbh-overlay .sbh-hit:hover .cell,.sbh-overlay .cell.sbh-hit:hover{fill-opacity:.42}
+.sbh-overlay .area{fill:none;stroke:#ffb627;stroke-width:1;stroke-dasharray:2 2;opacity:.8}
+.sbh-overlay .ring{fill:none;stroke:var(--ac);stroke-width:2}
+.sbh-overlay .selhero{fill:none;stroke:#ffe066;stroke-width:2;animation:sbh-pulse 1s steps(2) infinite}
+.sbh-overlay .plan{stroke:var(--ac);stroke-width:2;stroke-dasharray:4 3;fill:none;opacity:.85}
+.sbh-overlay .plan.cur{stroke-width:3;opacity:1;stroke-dasharray:none}
+.sbh-overlay .tag{font:700 9px "Cascadia Mono","Consolas","Microsoft YaHei",monospace;fill:#fff;paint-order:stroke;stroke:#05060c;stroke-width:2.5px}
+@keyframes sbh-pulse{50%{opacity:.45}}
+@media(prefers-reduced-motion:reduce){.sbh-overlay .selhero{animation:none}body.sbh-sandbox .arena-watchbar #stopSandbox.sbh-armed{animation:none}}
+@media(max-width:760px){
+ body.sbh-sandbox .arena-watchbar{padding:6px 8px;gap:6px}
+ body.sbh-sandbox .arena-watchbar strong{flex-basis:100%}
+ body.sbh-sandbox .arena-watchbar button,body.sbh-sandbox .arena-watchbar select{padding:4px 7px;min-height:36px}
+ body.sbh-sandbox .arena-watchbar #stopSandbox{margin-left:auto}
+ .sbh-dock{padding:5px}
+ .sbh-heroes{gap:3px}
+ .sbh-hero{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center;padding:3px 2px;min-height:64px}
+ .sbh-hero canvas{grid-row:auto;width:24px;height:24px}
+ .sbh-hn{font-size:10.5px;max-width:100%}.sbh-hn b{margin:0}.sbh-hn span{display:none}
+ .sbh-pos{display:none}
+ .sbh-hp{width:100%}
+ .sbh-ho{justify-content:center;padding-left:0;border-left:0;border-top:2px solid #444;font-size:9.5px;width:100%}
+ .sbh-ho.set{border-top-color:var(--ac,#ffe066)}
+ .sbh-acts{grid-template-columns:repeat(5,minmax(0,1fr));gap:3px}
+ .sbh-act{min-height:50px;font-size:11px;padding:3px 1px}
+ .sbh-submit{flex:1}
+ .sbh-msg{min-width:0;flex-basis:100%}
+}
+
+.sbh-hn .sbh-player-id{max-width:14em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

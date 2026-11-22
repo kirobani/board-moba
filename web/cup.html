@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HEX MOBA · 杯赛</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/assets/league-base.css">
+  <link rel="stylesheet" href="/stage/assets/broadcast.css">
+  <link rel="stylesheet" href="/stage/assets/economy-curve.css">
+  <link rel="stylesheet" href="/assets/moba-report.css">
+  <link rel="stylesheet" href="/assets/cup.css">
+</head>
+<body class="cup">
+  <header class="cup-top">
+    <a class="wordmark" href="/cup.html"><span class="mark" aria-hidden="true">M/</span> HEX MOBA <small>CUP</small></a>
+    <nav aria-label="杯赛导航"><a href="/cup.html" data-cup-nav aria-current="page">杯赛大厅</a><a href="#cup-draw" data-cup-nav data-cup-detail hidden>抽签台</a><a href="#cup-pools" data-cup-nav data-cup-detail hidden>种子池</a><a href="#cup-swiss" data-cup-nav data-cup-detail hidden>瑞士轮</a><a href="#cup-knockouts" data-cup-nav data-cup-detail hidden>淘汰赛</a><a href="/scores.html">战队与选手</a></nav>
+    <span class="sim-label"><i></i>BO1 / BO3 / BO5</span>
+  </header>
+  <div class="topline cup-topline">
+    <span>棋盘 MOBA / 杯赛</span>
+    <div class="cup-site-tools"><select id="cup-picker" aria-label="选择杯赛" hidden></select><a href="/">沙盒大厅 ↗</a></div>
+  </div>
+  <main class="cup-shell">
+    <div id="cup-main" aria-busy="true"><p class="cup-empty">正在读取杯赛…</p></div>
+    <p id="cup-error" role="alert" hidden></p>
+  </main>
+  <dialog id="cup-create" class="cup-dialog">
+    <div class="cup-dialog-head"><h2>新建杯赛</h2><button type="button" data-close="cup-create" aria-label="关闭">×</button></div>
+    <form id="cup-form">
+      <label>杯赛名称<input name="name" required maxlength="60" autocomplete="off" placeholder="例如 开幕杯"></label>
+      <fieldset>
+        <legend>模式</legend>
+        <label class="cup-mode-option"><input type="radio" name="mode" value="sealed" checked><span><b>正式杯赛</b><small>逐轮抽签，演算封存后选择焦点桌，手动揭晓赛果。</small></span></label>
+        <label class="cup-mode-option"><input type="radio" name="mode" value="test"><span><b>测试杯赛</b><small>按轮开赛，结束后直接查看比分与回放。</small></span></label>
+        <label class="cup-mode-option"><input type="radio" name="mode" value="realtime"><span><b>实时正式杯赛</b><small>现场开轮，切换焦点桌，跟看正在演算的棋盘。</small></span></label>
+      </fieldset>
+      <button class="cup-primary" type="submit">创建杯赛</button>
+      <p id="cup-form-error" role="alert" hidden></p>
+    </form>
+  </dialog>
+  <dialog id="cup-replay" class="cup-dialog cup-replay">
+    <section id="cup-watch-surface" aria-label="杯赛观战">
+    <div class="cup-dialog-head"><div><h2 id="cup-watch-title">对局</h2><p id="cup-watch-status" aria-live="polite"></p></div><div class="cup-watch-tools"><button class="cup-mini" id="cup-watch-fullscreen" type="button" aria-pressed="false">全屏观战</button><button type="button" data-close="cup-replay" aria-label="关闭">×</button></div></div>
+    <div class="cup-watch-actions" aria-label="赛后操作">
+      <button class="cup-primary" id="cup-show-stats" type="button" hidden>赛后数据</button>
+      <button class="cup-mini" id="cup-show-player" type="button" hidden>返回棋盘</button>
+      <button class="cup-primary" id="cup-next-map" type="button" hidden>观看下一局</button>
+    </div>
+    <div id="cup-player"></div>
+    <div id="cup-postgame" hidden></div>
+    </section>
+  </dialog>
+  <dialog id="cup-review-dialog" class="cup-dialog">
+    <div class="cup-dialog-head"><h2>赛后复盘</h2><form method="dialog"><button aria-label="关闭">×</button></form></div>
+    <div data-review-lines></div>
+  </dialog>
+  <script src="/stage/assets/moba-roster.js"></script>
+  <script src="/stage/assets/mb-data.js"></script>
+  <script src="/stage/assets/mb-story.js"></script>
+  <script src="/stage/assets/mb-render.js"></script>
+  <script src="/stage/assets/mb-highlights.js"></script>
+  <script src="/stage/assets/economy-curve.js"></script>
+  <script src="/stage/assets/mb-player.js"></script>
+  <script src="/assets/moba-stats.js"></script>
+  <script src="/assets/cup.js"></script>
+</body>
+</html>

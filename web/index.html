@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/league-base.css">
+  <link rel="stylesheet" href="/assets/public.css">
+  <title>棋盘 MOBA</title>
+</head>
+<body>
+  <main class="public-layout">
+    <h1>棋盘 MOBA</h1>
+    <nav aria-label="项目入口">
+      <a href="/cup.html">杯赛与正式回放</a>
+      <a href="/scores.html">16 队成绩与选手名单</a>
+    </nav>
+    <section>
+      <h2>试玩沙盒</h2>
+      <p>蓝红双方各选人类或示例队。进入棋盘后可改人类选手 ID，并提交每回合指令。</p>
+      <form id="sandbox-form">
+        <label>蓝方 <select name="A" required><option value="human">人类控制</option></select></label>
+        <label>红方 <select name="B" required><option value="human">人类控制</option></select></label>
+        <label>种子 <input name="seed" placeholder="留空随机" maxlength="100"></label>
+        <button type="submit" disabled>开局</button>
+      </form>
+      <p id="sandbox-message" role="alert"></p>
+      <h3>本地对局</h3>
+      <ul id="sandbox-games"></ul>
+    </section>
+  </main>
+  <script src="/assets/public.js"></script>
+</body>
+</html>
